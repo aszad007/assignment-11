@@ -1,0 +1,129 @@
+/*Universal*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-height: 1080px;
+}
+/*Header Part*/
+header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  padding: 20px 10%;
+  background-color: rgb(11, 50, 11);
+  font-family: sans-serif;
+}
+.btn {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+
+nav .b {
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+  margin: 10px;
+  margin-top: 40px;
+}
+/*Main*/
+
+.upper-menu {
+  display: flex;
+  margin-left: 10px;
+  font-size: 25px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.a {
+  margin-top: 15px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.effect:hover { 
+    border: 3px solid #519fee;
+    border-radius: 5%;
+}
+.lower-menu {
+  justify-content: flex-end;
+}
+.flex-parent-element {
+  display: flex;
+  height: 560px;
+}
+.flex-child-element-sidebar {
+  margin: 10px;
+  width: 20%;
+  margin: 20px;
+  background: rgb(143, 214, 143);
+  border-radius: 10px;
+}
+.btn1 {
+  margin-top: 200px;
+  width: 90%;
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  word-spacing: 3px;
+  font-weight: 700;
+  border: 1px solid rgb(11, 50, 11);
+  background-color: rgb(11, 50, 11);
+}
+
+/*Box 2 */
+.box2 {
+  margin: 10px;
+  width: 70%;
+  margin: 20px;
+  background: rgb(143, 214, 143);
+  border-radius: 10px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 15px;
+}
+.img-responsive {
+  flex-wrap: wrap;
+  margin-right: 80px;
+  margin-left: 60px;
+  margin-top: 10px;
+  height: 200px;
+  width: auto;
+  border-radius: 10%;
+  border: 2px solid black;
+}
+/*Footer*/
+
+.foot {
+  display: flex;
+  background-color: rgb(11, 50, 11);
+  padding: 20px;
+}
+.footer-heading {
+  color: white;
+  font-weight: 700;
+  margin-left: 20%;
+}
+.social-icons {
+  color: white;
+  font-weight: 600;
+  margin-left: 60%;
+}
+.social-icons2 {
+  color: white;
+  font-weight: 600;
+  margin-left: 50px;
+}
