@@ -1,2 +1,2 @@
 <Output>
-<img src="">
+<img src="/output.png">
